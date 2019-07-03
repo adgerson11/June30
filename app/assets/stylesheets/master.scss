@@ -1,4 +1,5 @@
-@import "bootstrap";
+@import 'bootstrap';
+
 
 .clear {
     clear: both;
@@ -38,6 +39,8 @@
     -ms-transform: rotate(11deg); /* IE 9 */
     
     -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
+
+    margin-left: 20px;
 }
 
 .slogan {
@@ -46,22 +49,41 @@
     font-style: italic;
 
     padding-top: 26px;
+
+    margin-left: 20px;
 }
 
 .links {
   padding-top: 26px;
+  margin-left: 20px;
 }
 
 .links a {
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'benthamregular';
+  font-weight: bold;
 }
 
-.header {
+header {
   border-top: 9px solid #222222;
 }
 
 .hr {
-  clear:both;
+  clear: both;
 }
+
+h1 {
+  font-family: 'benthamregular';
+  font-weight: bold;
+  font-size: 48px;
+ 
+}
+
+h2 {
+  font-family: 'benthamregular';
+  font-weight: bold;
+  
+}
+
